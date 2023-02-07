@@ -4,7 +4,7 @@ const chooseimage = images[Math.floor(Math.random() * images.length)];
 
 const bgImage = document.createElement("img");
 
-bgImage.src = `img/${chooseimage}`;
+bgImage.src = `${chooseimage}`;
 
 console.log(bgImage);
 
